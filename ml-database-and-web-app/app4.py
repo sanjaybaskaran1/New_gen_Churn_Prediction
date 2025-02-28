@@ -44,7 +44,7 @@ menu_options = ["Login", "Signup", "Upload Dataset", "Data Insights", "Predictio
 selected_menu = st.sidebar.radio("Choose an option:", menu_options)
 
 st.sidebar.markdown("---")
-st.sidebar.info("Developed by Sanjay using Decision Tree Model")
+st.sidebar.info("Developed by Sanjay using Gradient Boosting ML Model")
 
 # Initialize session state
 if "authenticated" not in st.session_state:
